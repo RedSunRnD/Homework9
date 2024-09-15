@@ -30,7 +30,7 @@ public class Main {
         for (int i = 0; i < expensesC.length; i++) {
             sumC = sumC + expensesC[i];
         }
-        double middleValue = sumC / expensesC.length;
+        double middleValue = (double) sumC / expensesC.length;
         System.out.println("Средняя сумма трат составила " + middleValue + " рублей.");
         System.out.println();
         //Задача №4
