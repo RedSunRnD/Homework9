@@ -12,9 +12,9 @@ public class Main {
         System.out.println("Траты за месяц составили " + sumA + " рублей.");
         System.out.println();
         //Задача №2
-        int[] expensesB = {11520, 2690, 657, 97871, 3654};
-        int min = 1_000_000_000;
-        int max = -1;
+        int[] expensesB = {4, 123, 456, 669, 741};
+        int min = expensesB[0];
+        int max = expensesB[0];
         for (int i = 0; i < expensesB.length; i++) {
             if (expensesB[i] > max) {
                 max = expensesB[i];
